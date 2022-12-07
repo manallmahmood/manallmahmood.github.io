@@ -1,0 +1,102 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Manal's Page</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cormorant">
+    <style>
+        html * {
+            font-family: "Cormorant", sans-serif;
+        }
+
+        .profile_header {
+            text-align: center;
+            background-color: #92705f;
+            color: white;
+            padding-top: 4vh;
+            padding-bottom: 4vh;
+            background-image: url("959898b792187c31a76f0112cf10f20c.jpg");
+        }
+
+        h2 {
+            font-size:40px;
+            color: #9f673f;
+            margin-bottom: 0pt;
+        }
+        p {
+            font-size:30px;
+            margin-top: 0pt;
+
+        }
+
+        body {
+            background-image:url("c082780f4f0e42b4f040f27c6b2a6177.jpg");
+            background-repeat: no-repeat;
+            background-size: 1000px 1000px;
+        }
+
+        .content-cell {
+            width: 50%;
+            padding-left: 1rem;
+            padding-left: 1rem;
+            background-color: hsl(21, 92%, 85%);
+
+        }
+    </style>
+</head>
+<body>
+    <center><table style="width: 70%; height: 80%">
+    <table border= "10">
+            <tr>
+                <td style="width: 40%;">
+                    <div class="profile_header">
+                        <img src="webapp.png" alt="Manal's Profile Picture" 
+                          style="width: 200px; border-radius: 50%;" />
+                        <br>
+                        <h1 style="font-size:37px; color:black;"> MANAL MAHMOOD <br> 6340044 </h1>
+                        <br>
+                    </div> 
+                </td>
+                <td class="content-cell">
+                    <h2>Hi!</h2>
+                    <p>
+                        Whats up?
+                    </p>
+                
+                    <h2>Web App Development</h2>
+                    <p>
+                       I'm trying my best lol
+                    </p>
+                </td>
+            </tr>
+    <center/>
+        </tbody>
+    </table>
+    <button onclick="changeName()">Change Name</button>
+
+    <script>
+        console.log("Hello");
+        var x = 10;
+        var y = 20;
+        var z = x + y;
+        console.log(z)
+
+        var nameAsJack = false
+
+        function changeName() {
+            // change the name
+            var span = document.getElementById("myName");
+            if (nameAsJack) {
+                span.innerHTML = "Manal Mahmood"    
+            } else {
+                span.innerHTML = "Jack Sparrow"
+            }
+            nameAsJack != nameAsJack
+            console.log("Button is clicked")
+        }
+    </script>
+
+</body>
+
+</html>

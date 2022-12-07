@@ -7,12 +7,12 @@ var products = [
     },
     {
         name: "Popcorn",
-        quantity: 180,
+        quantity: 2,
         ppu: 190
     },
     {
         name: "Sprite",
-        quantity: 25,
+        quantity: 1,
         ppu: 25
     },
     {
