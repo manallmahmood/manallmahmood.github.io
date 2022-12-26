@@ -40,7 +40,7 @@ function deleteCustomer(index) {
 
     for (let c in customers) {
         let csData = `<tr>
-        <td><img style="width: 1.5em;" src='delete.png' onclick='deleteCustomer("${c}")'>${customers[c].name}</td>
+        <td><img style="width: 1.5em;" src='icon-delete.png' onclick='deleteCustomer("${c}")'>${customers[c].name}</td>
         <td>${customers[c].email}</td>
         <td>${customers[c].phone}</td>
         </tr>`
