@@ -1,18 +1,22 @@
-
 [
     {
-        "name": "Aashish Dubey",
-        "email": "dubey@racoon.com",
-        "phone": "084-223-6763"
+        "name": "Manal Mahmood",
+        "email": "manallmahmood@gmail.com",
+        "phone": "0213665353"
     },
     {
-        "name": "Yasi BKL",
-        "email": "yasi@racoon.com",
-        "phone": "098-123-9999"
+        "name": "Sheikh Terfia",
+        "email": "Terfiam@gmail.com",
+        "phone": "3664783927"
     },
     {
-        "name": "Zwe Ka Choda",
-        "email": "zwe@racoon.com",
-        "phone": "084-542-2682"
-    }
+        "name": "Zoha Baloch",
+        "email": "randibharwi@gmail.com",
+        "phone": "3663237891"
+    },
+	{
+		"name": "Riyan Aqmal",
+		"email": "riyan@gmail.com",
+		"phone": "0962357134"
+	}
 ]
