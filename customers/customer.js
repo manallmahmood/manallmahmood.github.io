@@ -2,7 +2,7 @@ var customers = []
 
 
 $(document).ready(function() {
-    console.log("Hi, How are you today?")
+    console.log("Youre in Manal's Store!!")
     // load data
     $.ajax({
         url: "data.json",
@@ -48,25 +48,6 @@ function deleteCustomer(index) {
     }
 }
 
-// THIS ONE FKING WORK  BUT IT ALSO DELETE THE FUCKING HEADERRRRRRRRRRRRRRRRRR.
-// function deleteCustomer(index) {
-//     console.log("Delete " + index)
-//     delete customers[index]
-
-//     console.log(customers)
-
-//     $('#data-table tr').html("")
-
-//     for (let c in customers) {
-//         let csData = `<tr>
-//         <td><img style="width: 1.5em;" src='delete.png' onclick='deleteCustomer("${c}")'>${customers[c].name}</td>
-//         <td>${customers[c].email}</td>
-//         <td>${customers[c].phone}</td>
-//         </tr>`
-//         $("#data-table tr:last").after(csData)
-//     }
-// }
-
 function addCustomer() {
     let newName = (document.getElementById("exampleFormControlInput1")).value
     console.log(newName)
@@ -81,7 +62,7 @@ function addCustomer() {
     console.log(customers)
 
     let newData =  `<tr>
-    <td><img style="width: 1.5em;" src='delete.png' onclick='deleteCustomer("${(customers.length)-1}")'>${newCustomer.name}</td>
+    <td><img style="width: 1.5em;" src='icon-delete.png' onclick='deleteCustomer("${(customers.length)-1}")'>${newCustomer.name}</td>
     <td>${newCustomer.email}</td>
     <td>${newCustomer.phone}</td>
     </tr>`
